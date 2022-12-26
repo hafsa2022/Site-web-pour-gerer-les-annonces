@@ -1,0 +1,159 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'poppins','sans-serif';
+    scroll-behavior:smooth;
+    
+}
+header{
+    position:fixed;
+    top:0%;
+    left:0%;
+    padding:20px;
+    width:100%;
+    z-index:1;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+    background-color: #fff;
+    height: 70px;
+}
+.logo{
+    /* color:#fff;*/
+     font-size:2em;
+     text-decoration:none;
+     font-weight:bold;
+     color:#000
+ }
+ .logo span{
+     color:rgb(66, 209, 109);
+ }
+ .titrecontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+ }
+ 
+ .div_form{
+
+        padding: 16px;
+        margin:200px;
+       height: 50%;
+       margin-top:150px
+ }
+ 
+ form label{
+    font-size: 14px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+ /* Full-width input fields */
+input[type=text], input[type=password],input[type=email],input[type=date],input[type=number] ,select{
+    width: 100%;
+    padding:8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline:0;
+  }
+::-webkit-file-upload-button{
+    background-image: linear-gradient(to right,rgb(66, 209, 109),rgb(2, 235, 72));
+    border:none;
+    padding:5px 35px;
+    border-radius: 6px;
+    color:#fff;
+    cursor: pointer;
+
+}
+  textarea{
+    height: 150px;
+    resize:none;
+    outline: 0;
+    width:100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+iframe{
+    height: 150px;
+    width:100%
+}
+form input:focus,textarea:focus{
+    border:2px solid rgb(96, 159, 211)
+}
+   /* Extra styles for the inscr button */
+   .en:hover,.bt:hover,.btn:hover{
+    opacity: 0.8;
+  }
+.en ,.bt,.btn,.btn_modi{
+    background-color: rgb(66, 209, 109);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 100%;
+  }
+  .message-erreur{
+    color:black;
+    align-content:center;
+    padding: 50px;
+    font-size: 700;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: animatetest;
+    -webkit-animation-duration: 5s;
+    animation-name: animatetest;
+    animation-duration: 5s
+}
+
+.message_success{
+  color:black;
+  align-content:center;
+  padding: 50px;
+  font-size: 700;
+  background-color: aquamarine;
+  position: relative;
+  -webkit-animation-name: animatetest;
+  -webkit-animation-duration: 5s;
+  animation-name: animatetest;
+  animation-duration: 5s
+}
+
+@-webkit-keyframes animatetest {
+  from { left:-100px; opacity:0 } 
+  to { left:0px; opacity:1 }
+}
+
+@keyframes animatetest { 
+  from{ left:-100px; opacity:0 } 
+  to{ left:0px; opacity:1 }
+}
+.con_botton{
+    text-decoration:none ;
+     margin-left:735px;
+     color:rgb(66, 209, 109)
+}
+
+  .create{
+    color:rgb(66, 209, 109) ;
+    text-decoration:none;
+    margin-left:785px;
+  }
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .create{
+        display: block;
+        float: none;
+
+      }
+
+  }
