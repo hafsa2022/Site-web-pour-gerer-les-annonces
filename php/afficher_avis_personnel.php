@@ -1,5 +1,5 @@
 <?php
-require_once('lesComposentes.php');
+require_once('lesComposantes.php');
 include 'connexionBD.php';
 session_start();
 ?>
@@ -11,14 +11,14 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Details Annonce</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="annonce_style.css">
-    <link rel="stylesheet" href="newhome_style.css">
+    <link rel="stylesheet" href="../css/annonce_style.css">
+    <link rel="stylesheet" href="../css/newhome_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header class="he" style="background-color: #a7f0aa; height: 70px;">
-        <a href="newhome.php" class="logo"><span>N</span>ew<span>H</span>ome</a>
+        <a href="newhome_principale.php" class="logo"><span>N</span>ew<span>H</span>ome</a>
     </header>
  <section class="avis" id="avis"    style=" margin-top:8%;" >
         <h1 class="title-apropos">Vos Avis</h1>

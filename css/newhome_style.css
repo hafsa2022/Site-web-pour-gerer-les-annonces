@@ -124,7 +124,7 @@ ul li a{
      display:flex;
      justify-content:center;
      align-items: center;
-     background-image: url('images/im2.webp');
+     background-image: url('../images/im2.webp');
      background-size: cover;
  }
  .title .contenu{

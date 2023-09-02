@@ -1,5 +1,5 @@
 <?php
-require_once('lesComposentes.php');
+require_once('lesComposantes.php');
 include 'connexionBD.php';
 session_start();
 ?>
@@ -11,8 +11,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Details Annonce</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="annonce_style.css">
-    <link rel="stylesheet" href="newhome_style.css">
+    <link rel="stylesheet" href="../css/annonce_style.css">
+    <link rel="stylesheet" href="../css/newhome_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -60,7 +60,7 @@ session_start();
     foreach($result as $annonce)
     details_annonce($annonce["categorie"],$annonce["prix"],$annonce["surface"],$annonce["Autre_details"],$annonce["numero"],$annonce["titre"],$annonce["date_ajouter"],$annonce["Adresse"])
     ?>
-    <script type="text/javaScript" src="annonces.js"></script>
+    <script type="text/javaScript" src="../js/annonces.js"></script>
 
 </body>
 </html>

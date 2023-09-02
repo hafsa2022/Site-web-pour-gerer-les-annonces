@@ -4,7 +4,7 @@ function component_annonce($image,$titre,$prix,$categorie,$surface,$adresse,$dat
     
     $element="
     <div class=\"box\">
-    <img src=\"$image\">
+    <img src=\"../$image\">
     <div class=\"content-annonces\">
         <form method=\"POST\" action=\"details_annonce.php\">
             <h4>$titre</h4>
@@ -26,7 +26,7 @@ function component_annonce_personnel($image,$titre,$prix,$categorie,$surface,$ad
     $v=$annonce_id;
     $element="
     <div class=\"box\">
-    <img src=\"$image\">
+    <img src=\"../$image\">
     <div class=\"content-annonces\">
         <form method=\"POST\" action=\"modifier_annonce.php\">
             <h4>$titre</h4>
@@ -66,7 +66,7 @@ echo $element;
 function images_details($image){
     $element="
     <div class=\"mySlides fade\">
-    <img src=\"$image\" style=\"width:100%\">
+    <img src=\"../$image\" style=\"width:100%\">
   </div>";
   echo $element;
 }
