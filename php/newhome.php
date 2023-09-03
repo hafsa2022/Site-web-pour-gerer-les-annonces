@@ -1,5 +1,5 @@
 <?php
-require_once("lesComposentes.php");
+require_once("lesComposantes.php");
 include 'connexionBD.php';
 session_start();
 
@@ -12,7 +12,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NewHome</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="newhome_style.css">
+    <link rel="stylesheet" href="../css/newhome_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -50,7 +50,7 @@ session_start();
         }
         }
     </script>
-    <script type="text/javaScript" src="annonce_script.js"></script>
+    <script type="text/javaScript" src="../js/annonce_script.js"></script>
     <section class="title" id="title">
         <div class="contenu">
             <div class="bottons">
@@ -86,7 +86,7 @@ session_start();
     </section>
  
      
-      <script type="text/javaScript" src="annonce_script.js"></script>
+      <script type="text/javaScript" src="../js/annonce_script.js"></script>
       <div id="id05" class="modal"  >
         <form class="modal-content animate"  method="post" style="height:70% ;width:50%; padding:15px" action="ajouterAvis.php">
           <div class="titrecontainer">
@@ -109,7 +109,7 @@ session_start();
         <h1 class="title-apropos">à propos</h1>
         <div class="img-desc">
             <div class="left">
-                <img src="images/image10.jpg" alt="">
+                <img src="../images/image10.jpg" alt="">
             </div>
             <div class="right">
                 <h3>Nous cherchons le meilleur pour vous </h3>
